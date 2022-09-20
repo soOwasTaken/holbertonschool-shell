@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -o '[[:upper:]]*' | mv /tmp/u
+head -c 1 grep -o '[[:upper:]]*' | mv /tmp/u
