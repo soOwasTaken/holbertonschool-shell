@@ -1,2 +1,2 @@
 #!/bin/bash
-if [ "$(whoami)" != "guillaume" ] then chown vincent hello	
+chown -user guillaume vincent hello	
