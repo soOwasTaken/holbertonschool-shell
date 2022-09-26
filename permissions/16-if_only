@@ -1,3 +1,2 @@
 #!/bin/bash
-if [ "$(whoami)" != "guillaume" ]; then
-       chown vincent hello	
+if [ "$(whoami)" != "guillaume" ]; then chown vincent hello	
